@@ -19,7 +19,6 @@ public class Programa1 {
         double[] tamanho = new double[sanduiches];
         for(int i = 0; i < sanduiches; ++i){
             String tam = leitor.readLine();
-            //String tam = l.next();
             int tama = Integer.parseInt(tam);
             tamanho[i] = tama;
         }
